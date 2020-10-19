@@ -4,6 +4,13 @@
 
 - "You miss 100 percent of the chances you don't take. — Wayne Gretzky" — Michael Scott
 
+## 5.27.0-beta.0
+
+- [browser] feat: Sessions Health Tracking (#2973)
+- [core] ref: Use SentryError for rejections (#2973)
+- [tracing] feat: Express router methods tracing (#2972)
+- [tracing] ref: Only report FCP or FP if the page wasn't hidden prior to their instrumentation (#2979)
+
 ## 5.26.0
 
 - [serverless] feat: Implement error handling and tracing for `Google Cloud Functions` (#2945)
@@ -650,7 +657,7 @@ the default export.
 
 - Fix: NPM release
 
-## 5.0.0-beta1
+## 5.0.0-beta.1
 
 **Migration from v4**
 
